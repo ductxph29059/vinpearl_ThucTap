@@ -8,7 +8,10 @@
   max-width: 1170px;
   margin: 0 auto;
 }
-
+.flex {
+  display: flex;
+  align-items: center;
+}
 ul {
   list-style: none;
 }
@@ -20,7 +23,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 24px 0px;
+  padding: 20px 0px;
 }
 .inner-header {
   display: flex;
@@ -55,6 +58,37 @@ ul#main-menu a {
   font-family: EB Garamond;
   text-align: center;
 }
-#main-menu .img-fi {
-  left: 1275px;
+
+/*nav2*/
+.navbar__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  gap: 20px;
+  list-style: none;
+}
+
+.nav__links a {
+  color: white;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.content-bookNow {
+  background-color: rgba(232, 149, 47, 1);
+  border: 1px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar__bottom-menu {
+  gap: 20px;
+}
+.nav__links li a {
+  font-family: "EB Garamond";
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
 }
