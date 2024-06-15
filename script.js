@@ -7,12 +7,11 @@
 // };
 
 $(document).ready(function () {
-  $;
-  window.scroll(function () {
+  $(window).scroll(function () {
     if ($(this).scrollTop()) {
-      $("header").addclass("sticky");
+      $("header").addClass("sticky");
     } else {
-      $("header").romew("sticky");
+      $("header").removeClass("sticky");
     }
   });
 });
