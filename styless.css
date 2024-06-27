@@ -377,6 +377,9 @@ ul#main-menu a {
   align-items: center;
 }
 .bandoImg {
+  position: relative;
+  top: -3rem;
+  left: -2rem;
 }
 .img-bando {
 }
