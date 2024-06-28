@@ -11,7 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
         rel="stylesheet">
-
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <style>
+            /* Set fixed width for slides */
+           
+          </style>
 </head>
 
 <body>
@@ -311,18 +315,22 @@
                 </div>
             </div>
             <!-- Swiper -->
-             <div class="contact-text3-bottom">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="images/Group 45495.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/Group 45496.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/Group 45498.png" alt=""></div>
-                        <div class="swiper-slide"><img src="images/Group 45498.png" alt=""></div>
-                     
+                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 378px; margin-right: 20px;">
+                            <img src="images/Group 45495.png" alt="Description of the image">
+                          </div>
+                          <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 378px; margin-right: 20px;">
+                            <img src="images/Group 45496.png" alt="Description of the image">
+                          </div>                          <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 378px; margin-right: 20px;">
+                            <img src="images/Group 45498.png" alt="Description of the image">
+                          </div>
+                          <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 378px; margin-right: 20px;">
+                            <img src="images/Group 45498.png" alt="Description of the image">
+                          </div>                     
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-             </div>
        
 
 
@@ -489,11 +497,12 @@
     </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
     <script>
-        var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
       spaceBetween: 30,
       pagination: {

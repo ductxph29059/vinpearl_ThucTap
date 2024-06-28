@@ -636,21 +636,25 @@ ul#main-menu a {
 /*swiper*/
 
 .contact-text3-bottom {
-  position: position;
+  /* position: absolute; */
 }
 .swiper {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   bottom: -5rem;
   left: 40rem;
 }
 .swiper-slide {
+  width: 100%;
+  height: 100%;
   text-align: center;
   font-size: 18px;
   background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 378px !important;
+  margin-right: 10px;
 }
 
 .swiper-slide img {
